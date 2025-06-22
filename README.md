@@ -35,3 +35,7 @@ Backend	Flask (Python), Jinja2
 Database	SQLite (or MongoDB Atlas optional)
 Security	AES-256, PBKDF2, JWT, Flask-Login
 API	HaveIBeenPwned API (for breach check)
+
+
+live project link https://passwordmanager-jrek.onrender.com
+
