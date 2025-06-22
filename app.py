@@ -6,6 +6,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from flask_sqlalchemy import SQLAlchemy
+from waitress import serve
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Required for flash messages
@@ -244,4 +245,5 @@ def features():
     return render_template('features.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    serve(app, host="0.0.0.0", port=8000, threads=8)
