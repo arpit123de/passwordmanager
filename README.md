@@ -1,4 +1,4 @@
-🔐 Secure Password Account Manager
+#🔐 Secure Password Account Manager
 A full-featured web-based Password Manager built with Flask, SQLite, Bootstrap 5, and JavaScript. It provides a secure, user-friendly interface to manage and store sensitive credentials, with strong encryption and modern security features.
 
 🚀 Features
